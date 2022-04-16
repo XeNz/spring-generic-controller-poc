@@ -22,4 +22,12 @@
         - POST /api/book
         - PUT /api/book/{id}
         - DELETE /api/book/{id}
+        
 
+## Possible future improvements
+
+- entity to DTO mapping
+- think about generic endpoint format + possibility to override endpoints (https://stackoverflow.com/a/70127945)
+- performance check 
+  - currently using service locator pattern vs DI 
+  - caching needed?
